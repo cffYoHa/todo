@@ -15,9 +15,11 @@ const UserInfo: React.FC = () => {
 
   return(
     <div>
+      {/*
       <h2>{newUser.name}</h2>
       <h2>拍手できる回数：{newUser.clap}</h2>
       <h2>拍手された回数: {newUser.applause}</h2>
+      */}
     </div>
   );
 }
