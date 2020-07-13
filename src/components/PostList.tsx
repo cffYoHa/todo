@@ -28,7 +28,7 @@ const PostList: React.FC<Props> = ({ posts, setPosts }) => {
   return (
     <div className="inner">
       {
-        posts.length <= 0 ? '投稿された紹介はありません。' :
+        posts.length <= 0 ? '投稿されたTodoはありません。' :
         <ul className="post-list">
           { posts.map(post => (
             <PostItem

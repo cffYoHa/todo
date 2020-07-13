@@ -51,9 +51,9 @@ const PostInput: React.FC<Props> = ({posts, setPosts}) => {
         className="input"
         value={inputTitle}
         onChange={handleInputChange}
-        placeholder="皆に紹介してください！"
+        placeholder="入力してください！"
         />
-        <button　onClick={hundleSubmit} className="btn is-primary">投稿</button>
+        <button　onClick={hundleSubmit} className="btn is-primary">追加</button>
       </div>
     </div>
   )
